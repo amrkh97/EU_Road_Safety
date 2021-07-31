@@ -1,0 +1,97 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "Dataset",
+      "path": "Dataset.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Original Index",
+            "type": "integer",
+            "format": "default",
+            "title": "Original Index"
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default",
+            "title": "Country"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "format": "default",
+            "title": "Year"
+          },
+          {
+            "name": "Area",
+            "type": "integer",
+            "format": "default",
+            "title": "Area"
+          },
+          {
+            "name": "Population",
+            "type": "integer",
+            "format": "default",
+            "title": "Population"
+          },
+          {
+            "name": "GDP per capita",
+            "type": "integer",
+            "format": "default",
+            "title": "GDP per capita"
+          },
+          {
+            "name": "Population density",
+            "type": "integer",
+            "format": "default",
+            "title": "Population density"
+          },
+          {
+            "name": "Vehicle ownership",
+            "type": "integer",
+            "format": "default",
+            "title": "Vehicle Ownership"
+          },
+          {
+            "name": "Total road deaths",
+            "type": "integer",
+            "format": "default",
+            "title": "Total road deaths"
+          },
+          {
+            "name": "Road Deaths per Million Inhabitants",
+            "type": "integer",
+            "format": "default",
+            "title": "Road Deaths per Million"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "EU",
+    "Road Safety",
+    "Wikipedia",
+    "2018"
+  ],
+  "name": "EU_Road_Safety_2018",
+  "title": "EU Road Safety (2018)",
+  "description": "Description.",
+  "contributors": [
+    {
+      "title": "Amr Khaled",
+      "role": "author"
+    }
+  ],
+  "homepage": "https://en.wikipedia.org/wiki/Road_safety_in_Europe",
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ]
+}
